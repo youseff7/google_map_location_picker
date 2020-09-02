@@ -230,6 +230,7 @@ class MapPickerState extends State<MapPicker> {
                   ),
                   Spacer(),
                   FloatingActionButton(
+                    backgroundColor: Color(0xFF2c786c),
                     onPressed: () {
                       Navigator.of(context).pop({
                         'location': LocationResult(
@@ -278,7 +279,7 @@ class MapPickerState extends State<MapPicker> {
                 shadows: [
                   BoxShadow(
                     blurRadius: 4,
-                    color: Colors.black38,
+                    color: Color(0xFF2c786c),
                   ),
                 ],
                 shape: CircleBorder(
